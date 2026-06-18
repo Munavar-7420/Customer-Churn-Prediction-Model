@@ -201,7 +201,7 @@ Accuracy ≥ 80%
 
 ### 🤖 Model Performance Comparison
 
-<img width="541" height="433" alt="Comparision" src="https://github.com/user-attachments/assets/2563d28b-5f69-4f68-94d4-659475dd3f91" />
+<img width="772" height="708" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/581ee480-7466-4bb9-bd85-c22e6c3f2bb2" />
 
 ### 📉 Learning Curve Analysis
 
