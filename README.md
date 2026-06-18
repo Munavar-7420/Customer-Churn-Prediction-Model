@@ -191,11 +191,7 @@ Accuracy ≥ 80%
 
 ## 📷 Project Results
 
-### 📊 Customer Churn Dashboard
-
-<img width="736" height="454" alt="Churn_Dashboard" src="https://github.com/user-attachments/assets/8255a91e-2449-4e11-ac12-02db7eeb3d68" />
-
-### 📈 Customer Insights Dashboard
+### 📈 Customer Churn Insights Dashboard
 
 <img width="2075" height="1200" alt="Customer Insights Dashboard" src="https://github.com/user-attachments/assets/900acfc5-ec4d-4c94-9bc2-60c4ed2da983" />
 
