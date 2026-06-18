@@ -1,0 +1,16 @@
+Customer-Churn-Prediction/
+│
+├── Data/
+│   └── Customer_Churn.csv
+│
+├── Notebook/
+│   └── Customer_Churn_Prediction.ipynb
+│
+├── Models/
+│   ├── logistic_regression.pkl
+│   └── random_forest.pkl
+│
+├── requirements.txt
+│
+├── README.md
+└── .gitignore
