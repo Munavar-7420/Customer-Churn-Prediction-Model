@@ -265,4 +265,3 @@ Customer-Churn-Prediction/
 Aspiring Data Scientist | Machine Learning Enthusiast
 
 Python • Pandas • Scikit-Learn • SQL • Power BI
-<img width="736" height="454" alt="Churn_Dashboard" src="https://github.com/user-attachments/assets/53707105-239c-4d7d-9d94-505e04ef24f4" />
