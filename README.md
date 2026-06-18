@@ -127,11 +127,16 @@ Data Cleaning
 Feature Encoding
         │
         ▼
+Exploratory Data Analysis
+        │
+        ▼
 Train-Test Split
         │
         ▼
-Model Training
-(Logistic Regression / Random Forest)
+Logistic Regression
+        │
+        ▼
+Random Forest
         │
         ▼
 Model Evaluation
