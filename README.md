@@ -233,7 +233,7 @@ Customer-Churn-Prediction/
 │   └── Customer_Churn_Prediction.ipynb
 │
 ├── Pics/
-│   ├──Customer Churn Dashboard.jpg
+│   ├── Customer Churn Dashboard.jpg
 │   ├── Customer Insights Dashboard.jpg
 │   ├── Model Performance Comparison.jpg
 │   ├── Learning Curve Analysis.jpg
