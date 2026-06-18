@@ -233,13 +233,11 @@ Customer-Churn-Prediction/
 │   └── Customer_Churn_Prediction.ipynb
 │
 ├── Pics/
-│   ├── Churn_Dashboard.jpg
-│   ├── Dashboard_1.jpg
-│   ├── Comparision.jpg
-│   ├── Learning curve.jpg
-│   ├── Model Performance.jpg
-│   ├── Picture.jpg
-│   └── Test.jpg
+│   ├──Customer Churn Dashboard.jpg
+│   ├── Customer Insights Dashboard.jpg
+│   ├── Model Performance Comparison.jpg
+│   ├── Learning Curve Analysis.jpg
+│   ├── Model Performance Metrics.jpg
 │
 ├── README.md
 ├── LICENSE
