@@ -25,19 +25,11 @@ The analysis includes data preprocessing, feature engineering, model training, e
 
 ## 🎯 Objectives
 
-✔ Analyze customer churn behavior
-
-✔ Clean and preprocess telecom customer data
-
-✔ Encode categorical variables
-
-✔ Train Machine Learning models
-
-✔ Predict customer churn probability
-
-✔ Evaluate model performance
-
-✔ Generate actionable business insights
+✔ Explore customer churn patterns across contracts, tenure, and billing using SQL and Python  
+✔ Clean and preprocess 7,043 telecom customer records  
+✔ Encode categorical features and scale numerical variables  
+✔ Train and compare classification models (Logistic Regression & Random Forest)  
+✔ Evaluate performance using Accuracy, Precision, Recall, F1-Score, and ROC-AUC  
 
 ---
 
@@ -77,74 +69,37 @@ The analysis includes data preprocessing, feature engineering, model training, e
 
 ### Key Features
 
-- Customer Demographics
-  - Gender
-  - Senior Citizen
-  - Partner
-  - Dependents
+- **Demographics:** `Gender`, `SeniorCitizen`, `Partner`, `Dependents`
+- **Services:** `PhoneService`, `MultipleLines`, `InternetService`, `OnlineSecurity`, `TechSupport`, `StreamingTV`, `StreamingMovies`
+- **Account & Billing:** `Tenure`, `Contract`, `PaperlessBilling`, `PaymentMethod`, `MonthlyCharges`, `TotalCharges`
+- **Target Variable:** `Churn` (`Yes` = Churned, `No` = Retained)
 
-- Service Information
-  - Phone Service
-  - Multiple Lines
-  - Internet Service
-  - Online Security
-  - Online Backup
-  - Device Protection
-  - Tech Support
-  - Streaming TV
-  - Streaming Movies
-
-- Account Information
-  - Tenure
-  - Contract Type
-  - Paperless Billing
-  - Payment Method
-
-- Financial Information
-  - Monthly Charges
-  - Total Charges
-
-### Target Variable
-
-```text
-Churn
-
-Yes → Customer Left
-No  → Customer Retained
-```
-
+---
 ---
 
 ## 🔄 Project Workflow
 
 ```text
-Customer_Churn.csv
+Customer-Churn.csv
         │
         ▼
-Data Cleaning
+SQL Cohort Exploration & Data Cleaning
         │
         ▼
-Feature Encoding
+Feature Encoding & Scaling
         │
         ▼
-Exploratory Data Analysis
+Exploratory Data Analysis (EDA)
         │
         ▼
 Train-Test Split
         │
         ▼
-Logistic Regression
+Model Training (Logistic Regression & Random Forest)
         │
         ▼
-Random Forest
-        │
-        ▼
-Model Evaluation
-        │
-        ▼
-Customer Churn Prediction
+Model Evaluation & Churn Insights
 ```
-
 ---
 
 ## 📈 Exploratory Data Analysis
@@ -158,17 +113,11 @@ Customer Churn Prediction
 
 ---
 
-## 🤖 Machine Learning Models
+## 🤖 Machine Learning Models & Evaluation
 
-### Logistic Regression
-
-- Baseline Classification Model
-- Fast and Interpretable
-
-### Random Forest Classifier
-
-- Ensemble Learning Method
-- Improved Prediction Performance
+- **Logistic Regression:** Interpretable baseline classifier for estimating churn probabilities.
+- **Random Forest Classifier:** Ensemble tree model capturing non-linear interactions across service features.
+- **Evaluation Metrics:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix, and ROC-AUC Curve *(Replace with your exact notebook scores, e.g., ~80% accuracy)*.
 
 ---
 
@@ -214,53 +163,51 @@ Accuracy ≥ 80%
 
 ## 💡 Key Insights
 
-- Customers with month-to-month contracts are more likely to churn.
-- Higher monthly charges are associated with increased churn risk.
-- Long-term customers tend to have lower churn rates.
-- Certain payment methods show higher churn tendencies.
-- Contract type significantly impacts customer retention.
+- **Contract Type:** Customers on **month-to-month contracts** have the highest churn rate compared to one- or two-year contracts.
+- **Pricing Impact:** Higher **monthly charges** (particularly among Fiber Optic users without add-on tech/security support) strongly correlate with churn.
+- **Tenure Effect:** Customer churn drops sharply after the first 12 months of tenure.
+- **Payment Method:** Customers paying via **electronic check** exhibit noticeably higher attrition than those using automatic bank transfers or credit cards.
 
 ---
 
 ## 📁 Repository Structure
 
 ```text
-Customer-Churn-Prediction/
+Customer-Churn-Prediction-Model/
 │
 ├── Data/
-│   └── Customer_Churn.csv
+│   └── Customer-Churn.csv
 │
 ├── Notebook/
 │   └── Customer_Churn_Prediction.ipynb
+│
+├── SQL/
+│   └── Customer_Churn_Prediction.sql
 │
 ├── Pics/
 │   ├── Customer Churn Dashboard.jpg
 │   ├── Customer Insights Dashboard.jpg
 │   ├── Model Performance Comparison.jpg
 │   ├── Learning Curve Analysis.jpg
-│   ├── Model Performance Metrics.jpg
+│   └── Model Performance Metrics.jpg
 │
 ├── README.md
-├── LICENSE
-└── .gitignore
+└── LICENSE
 ```
 
 ---
 
 ## 🚀 Future Improvements
 
-- Hyperparameter Tuning
-- XGBoost Implementation
-- Customer Lifetime Value Prediction
-- Real-Time Churn Monitoring
-- Deployment Using Streamlit
+- Hyperparameter tuning with GridSearchCV / RandomizedSearchCV
+- Handling class imbalance using SMOTE or class weights
+- Gradient Boosting models (XGBoost / LightGBM)
+- Interactive churn risk calculator deployed via Streamlit
 
 ---
 
 ## 👨‍💻 Author
 
-**Munavar Patter**
-
-Aspiring Data Scientist | Machine Learning Enthusiast
-
+**Munavar Patter**  
+M.Sc. Student at SRH University | Former Data Analyst  
 Python • Pandas • Scikit-Learn • SQL • Power BI
