@@ -3,7 +3,7 @@
 
 # 🤖 Customer Churn Prediction Model
 
-### Predicting Customer Attrition Using Machine Learning
+### End-to-end telecom customer churn prediction using Python, SQL, and Scikit-Learn classification models.
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
